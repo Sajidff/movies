@@ -340,7 +340,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 NOTE:
 - Created by ◉› :<blockquote><a href="https://t.me/SANDVILLAGE">SAND VILLAGE</a></blockquote>
 
-developer : ＩＭ 𖣘︎ ＵＣＨＩＨＡ
+𝙁𝙖𝙩𝙝𝙚𝙧 : ＩＭ 𖣘︎ ＵＣＨＩＨＡ
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
@@ -367,4 +367,4 @@ developer : ＩＭ 𖣘︎ ＵＣＨＩＨＡ
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
-Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/iMSASUKES7i">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/IM_JISSHU">ᴀᴅᴍɪɴ</a></b>"""
+Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/iMSASUKES7i">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/iMSASUKES7i">ᴀᴅᴍɪɴ</a></b>"""
