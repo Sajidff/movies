@@ -127,7 +127,7 @@ async def start(client:Client, message):
         seen_ads = user.get("seen_ads", False)
         JISSHU_ADS_LINK = await db.jisshu_get_ads_link()
         buttons = [[
-                    InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+                    InlineKeyboardButton('⌯ ᴄʟᴏꜱᴇ ⌯', callback_data='close_data')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         if msg:
@@ -178,16 +178,16 @@ async def start(client:Client, message):
                 newPoint = await db.get_point(refUserId)
                 if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('✛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✛', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='admincmd'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                            InlineKeyboardButton("⌯ ʜᴇʟᴘ ⌯", callback_data='admincmd'),
+                            InlineKeyboardButton('⌯ ᴀʙᴏᴜᴛ ⌯', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                            InlineKeyboardButton('⌯ ᴘʀᴇᴍɪᴜᴍ ⌯', callback_data='seeplans'),
+                            InlineKeyboardButton('⌯ ʀᴇғᴇʀ ⌯', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('⌯ ᴍᴏsᴛ sᴇᴀʀᴄʜ ⌯', callback_data="mostsearch"),
+                            InlineKeyboardButton('⌯ ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ ⌯', callback_data="trending")
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
@@ -207,16 +207,16 @@ async def start(client:Client, message):
             pass
     if len(message.command) != 2:
         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('✛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✛', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='admincmd'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                            InlineKeyboardButton("⌯ ʜᴇʟᴘ ⌯", callback_data='admincmd'),
+                            InlineKeyboardButton('⌯ ᴀʙᴏᴜᴛ ⌯', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                            InlineKeyboardButton('⌯ ᴘʀᴇᴍɪᴜᴍ ⌯', callback_data='seeplans'),
+                            InlineKeyboardButton('⌯ ʀᴇғᴇʀ ⌯', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('⌯ ᴍᴏsᴛ sᴇᴀʀᴄʜ ⌯', callback_data="mostsearch"),
+                            InlineKeyboardButton('⌯ ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ ⌯', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
@@ -271,14 +271,14 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='admincmd'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                            InlineKeyboardButton("⌯ ʜᴇʟᴘ ⌯", callback_data='admincmd'),
+                            InlineKeyboardButton('⌯ ᴀʙᴏᴜᴛ ⌯', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                            InlineKeyboardButton('⌯ ᴘʀᴇᴍɪᴜᴍ ⌯', callback_data='seeplans'),
+                            InlineKeyboardButton('⌯ ʀᴇғᴇʀ ⌯', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('⌯ ᴍᴏsᴛ sᴇᴀʀᴄʜ ⌯', callback_data="mostsearch"),
+                            InlineKeyboardButton('⌯ ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ ⌯', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -456,9 +456,9 @@ async def delete_all_index(bot, message):
     if int(files) == 0:
         return await message.reply_text('Not have files to delete')
     btn = [[
-            InlineKeyboardButton(text="ʏᴇs", callback_data="all_files_delete")
+            InlineKeyboardButton(text="⌯ ʏᴇs ⌯", callback_data="all_files_delete")
         ],[
-            InlineKeyboardButton(text="ᴄᴀɴᴄᴇʟ", callback_data="close_data")
+            InlineKeyboardButton(text="⌯ ᴄᴀɴᴄᴇʟ ⌯", callback_data="close_data")
         ]]
     if message.from_user.id not in ADMINS:
         await message.reply('ᴏɴʟʏ ᴛʜᴇ ʙᴏᴛ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ... 😑')
@@ -498,7 +498,7 @@ async def settings(client, message):
                 InlineKeyboardButton('ᴠᴇʀɪғʏ', callback_data='verifyon'),
                 InlineKeyboardButton('ᴏɴ ✓' if settings["is_verify"] else 'ᴏғғ ✗', callback_data='verifyon')
             ],[
-                InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
+                InlineKeyboardButton('⌯ ᴄʟᴏsᴇ ⌯', callback_data='close_data')
             ]]
             await message.reply_text(
                 text=f"ᴄʜᴀɴɢᴇ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ꜰᴏʀ <b>'{title}'</b> ᴀs ʏᴏᴜʀ ᴡɪsʜ ✨",
@@ -870,9 +870,9 @@ async def all_settings(client, message):
 📂 ꜰɪʟᴇ ᴄᴀᴘᴛɪᴏɴ - `{settings['caption']}`</b>"""
     
     btn = [[
-        InlineKeyboardButton("ʀᴇꜱᴇᴛ ᴅᴀᴛᴀ", callback_data="reset_grp_data")
+        InlineKeyboardButton("⌯ ʀᴇꜱᴇᴛ ᴅᴀᴛᴀ ⌯", callback_data="reset_grp_data")
     ],[
-        InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
+        InlineKeyboardButton("⌯ ᴄʟᴏsᴇ ⌯", callback_data="close_data")
     ]]
     reply_markup=InlineKeyboardMarkup(btn)
     dlt=await message.reply_text(text, reply_markup=reply_markup, disable_web_page_preview=True)
@@ -969,7 +969,7 @@ async def refer(bot, message):
     btn = [[
         InlineKeyboardButton('invite link', url=f'https://telegram.me/share/url?url=https://t.me/{bot.me.username}?start=reff_{message.from_user.id}&text=Hello%21%20Experience%20a%20bot%20that%20offers%20a%20vast%20library%20of%20unlimited%20movies%20and%20series.%20%F0%9F%98%83'),
         InlineKeyboardButton(f'⏳ {referdb.get_refer_points(message.from_user.id)}', callback_data='ref_point'),
-        InlineKeyboardButton('Close', callback_data='close_data')
+        InlineKeyboardButton('⌯ ᴄʜᴏsᴇ ⌯' callback_data='close_data')
     ]]  
     m=await message.reply_sticker("CAACAgQAAxkBAAEkt_Rl_7138tgHJdEsqSNzO5mPWioZDgACGRAAAudLcFGAbsHU3KNJUx4E")      
     await m.delete()
