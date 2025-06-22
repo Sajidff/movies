@@ -166,11 +166,8 @@ async def start(client:Client, message):
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.NEW_USER_TXT.format(temp.B_LINK, message.from_user.id, message.from_user.mention))
-        try:
-            if (not hasattr(message, "command") or len(message.command) < 2:
-        await message.reply("⚠️ Missing argument. Please use like: `/start Jisshu-1234567890`")
-        return
-    refData = message.command[1]
+        try: 
+            refData = message.command[1]
             if refData and refData.split("-", 1)[0] == "Jisshu":
                 Fullref = refData.split("-", 1)
                 refUserId = int(Fullref[1])
