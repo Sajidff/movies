@@ -269,7 +269,7 @@ async def start(client:Client, message):
 
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+            InlineKeyboardButton('✛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✛', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
                             InlineKeyboardButton("⌯ ʜᴇʟᴘ ⌯", callback_data='admincmd'),
                             InlineKeyboardButton('⌯ ᴀʙᴏᴜᴛ ⌯', callback_data=f'about')
