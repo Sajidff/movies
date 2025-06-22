@@ -835,7 +835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⌯ ᴄʟᴏsᴇ ⌯', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        m=await query.message.reply_sticker("CAACAgQAAxkBAAEiLZ9l7VMuTY7QHn4edR6ouHUosQQ9gwACFxIAArzT-FOmYU0gLeJu7x4E") 
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAEXCjloV4WaZtRhNIiUf8i6XAlIswFT8QACyRIAAsX1WVb9jT\_W5YBrdTYE") 
         await m.delete()
         await query.message.reply_photo(
             photo=(SUBSCRIPTION),
@@ -845,7 +845,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('⌯ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ⌯', url=f'https://t.me/innocent_babe_dead')
+            InlineKeyboardButton('⌯ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ⌯', url=f'https://t.me/iMSASUKES7i')
         ],[
             InlineKeyboardButton('⌯ ᴄᴜsᴛᴏᴍ ᴘʟᴀɴs ⌯', callback_data='other')
         ],[
