@@ -261,7 +261,7 @@ User - {}"""
 
 1 Month 80 Rupees
 
- <code> sajideditz27@okhdfcbank </code> /n[ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+ <code> sajideditz27@okhdfcbank </code> \n[ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -340,7 +340,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 NOTE:
 Created by ◉›<blockquote><a href="https://t.me/SANDVILLAGE">SAND VILLAGE</a></blockquote>
 
-𝙁𝙖𝙩𝙝𝙚𝙧 : ＩＭ 𖣘︎ ＵＣＨＩＨＡ
+𝙁𝙖𝙩𝙝𝙚𝙧 ➻ ＩＭ 𖣘︎ ＵＣＨＩＨＡ
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
