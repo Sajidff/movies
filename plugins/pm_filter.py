@@ -938,7 +938,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         return await query.answer('ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ꜰᴏʀ ʏᴏᴜ ʙʀᴏ!', show_alert=True)
     
       buttons = [[
-	      InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features'),
+	      InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='start'),
 	      InlineKeyboardButton('ɴᴇxᴛ ⪼', callback_data='admincmd2'),
       ]]
       reply_markup = InlineKeyboardMarkup(buttons)
