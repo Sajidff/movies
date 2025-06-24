@@ -73,7 +73,7 @@ FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/Erk.jpg/IMG202506215
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/Erk.jpg/IMG20250621535.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/Erk.jpg/IMG20250621535.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/Erk.jpg/IMG20250621535.jpg'))
-REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
+REACTIONS = ["🥳", "❤️‍🔥", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
