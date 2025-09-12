@@ -257,11 +257,14 @@ User - {}"""
     
 <blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote>
 
-! Cut this and Type here Your own plane for exl
+ᴄᴜᴛ ᴛʜɪꜱ ᴀɴᴅ ᴛʏᴘᴇ ʜᴇʀᴇ ʏᴏᴜʀ ᴏᴡɴ ᴘʟᴀɴᴇ ꜰᴏʀ ᴇxʟ
 
-1 Month 80 Rupees
+30ʀs - 1 ᴡᴇᴇᴋ
+50ʀs - 1 ᴍᴏɴᴛʜs
+120ʀs - 3 ᴍᴏɴᴛʜs
+220ʀs - 6 ᴍᴏɴᴛʜs
 
- <code> sajideditz27@okhdfcbank </code> \n[ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+ <code>sajideditz27@okhdfcbank</code> \n[ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -368,3 +371,4 @@ Created by ◉›<blockquote><a href="https://t.me/SANDVILLAGE">SAND VILLAGE</a>
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/iMSASUKES7i">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/iMSASUKES7i">ᴀᴅᴍɪɴ</a></b>"""
+
