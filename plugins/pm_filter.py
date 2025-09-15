@@ -819,8 +819,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('⌯ ᴘʀᴇᴍɪᴜᴍ ⌯', callback_data='seeplans'),
                 InlineKeyboardButton('⌯ ʀᴇғᴇʀ ⌯', callback_data="reffff")
                 ],[
-                InlineKeyboardButton('⌯ ᴘғᴘ sᴛᴏʀᴇ ⌯', url=f'https://t.me/SANDPFP'),
-                            InlineKeyboardButton('⌯ sᴜᴘᴘᴏʀᴛ ⌯', url=f'https://t.me/SANDVILLAGE')
+                InlineKeyboardButton('⌯ sᴜᴘᴘᴏʀᴛ ⌯', url=f'https://t.me/SANDVILLAGE'),
+                            InlineKeyboardButton('⌯ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⌯', url=f'https://t.me/+VTR9WWwPmElmNTVl')
                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1660,3 +1660,4 @@ async def advantage_spell_chok(message):
         await message.delete()
     except:
         pass
+
